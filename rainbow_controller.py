@@ -35,7 +35,8 @@ class RainbowController:
             print('chord')
             return
 
-        print(message, deltatime)
+        #print(message, deltatime)
+        print (event)
         state = message[0]
 
         if state == RainbowController.DOWN:
